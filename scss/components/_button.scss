@@ -1,0 +1,13 @@
+.button{
+  display: inline-block;
+  margin-right: 5px;
+  padding: 7px 20px;
+  border:2px solid #ffffff;
+  color:#ffffff;
+  border-radius:5px;
+  &:hover{
+    background: #23b7a4;
+    border-color:#23b7a4;
+    color:#fff;
+  }
+}

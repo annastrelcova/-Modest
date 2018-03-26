@@ -1,0 +1,11 @@
+.grid {
+  display: flex;
+}
+
+.width-7-12 {
+  width: calc(100% * (7 / 12));
+}
+
+.width-5-12 {
+  width: calc(100% * (5 / 12));
+}

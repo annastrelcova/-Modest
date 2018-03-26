@@ -1,0 +1,39 @@
+.slider_main{
+  position: relative;
+  .foreground{
+    padding:250px 0;
+    .slider_contant{
+      max-width: 650px;
+    }
+    .title{
+      text-transform: uppercase;
+      font-size: 36px;
+      padding-bottom: 30px;
+      font-weight: 600;
+    }
+    .description{
+      color:#ccd0d7;
+      padding-bottom: 40px;
+    }
+  }
+  .background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/home-bg.png);
+    background-size: cover;
+    z-index: -2;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: -1;
+  }
+}

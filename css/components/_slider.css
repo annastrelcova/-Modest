@@ -1,0 +1,11 @@
+.slider_main {
+  position: relative; }
+  .slider_main .foreground {
+    position: relative;
+    padding: 250px 0; }
+    .slider_main .foreground .background {
+      position: absolute;
+      background: url(../images/home-bg.png);
+      background-size: cover; }
+    .slider_main .foreground .overlay {
+      position: absolute; }
